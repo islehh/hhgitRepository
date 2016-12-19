@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable", content="yes">
+		<title>最强战队年终特辑</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+		<div class="wrapper">
+				<center>
+				<div class="contain">
+				<div class="sec1">
+					<div class="video">
+						<iframe  src='http://player.youku.com/embed/XMTg0OTkyNzc2OA==' frameborder=0 'allowfullscreen' webkit-playsinline></iframe>
+					</div>
+				</div>
+
+				<div class="sec2">
+					<div class="title"></div>
+					<div class="sec2cont">
+						<div class="sec2_words">
+							<span style="color: #FFF;" >最强战队前两季，客户累计收益高达5566万！【最强战队第3季】期间，
+									四强导师预测白银会在美国大选后先跌至3600点左右，砸出“黄金坑”，
+									再上4500！目前“黄金坑”前半边已完美实现，短短17个交易日，
+									创造500点大行情，150%左右收益空间，客户累计收益高达<span style="color: #ff0000;">3421万！</span></span>
+						</div>
+						<div class="sec2_img">
+
+								<ul class="ullb">
+									<li class="li1"></li>
+									<li class="li2"></li>
+								</ul>
+							<div class="btn btn_l"></div>
+							<div class="btn btn_r"></div>
+					</div>
+				</div>
+				</div>
+				<div class="sec3">
+					<div class="title2"></div>
+					<div class="sec3_cont">
+						<div class="sec3_words">
+							<span style="color: #FFF;">活动期间，激活账户满足相应要求，再享五大福利</span>
+							<p id="" style="color: rgb(255,208,1););">（福利详情请咨询助理）</p>
+						</div>
+						<div class="sec3_img">
+							<div class="sec3_center">
+								<ul class="fuliul">
+									<li class="fuli1"></li>
+									<li class="fuli2"></li>
+									<li class="fuli3"></li>
+									<li class="fuli4"></li>
+									<li class="fuli5"></li>
+								</ul>
+							</div>
+							<div class="btn flbtn_l"></div>
+							<div class="btn flbtn_r"></div>
+						</div>
+					</div>
+				</div>
+			<iframe src="scroll.html" id='scrollbox'>
+
+			</iframe>
+
+				<div class="sec5">
+					<div class="sec2cont_lunbo">
+							<div id="sb">
+								<ul class="voiceList">
+
+								</ul>
+							</div>
+							<div class="sec5_btnl"><img src="img/btnl.png"/></div>
+							<div class="sec5_btnr"><img src="img/btnr.png"/></div>
+					</div>
+					<div class="sec5_words">
+						<span>
+							五大首席带队捞金，最强战队第3季短短17个交易日，客户累计收入高达3421万，在赚钱的同时更有多位客户幸运抽中
+							iphone7和纯银元宝大奖，全国客户好评如潮，以下为真实客户主动接受电话采访录音。
+						</span>
+					</div>
+				</div>
+				
+				<div class="foot">
+					<p >投资有风险，入市需谨慎</p>
+					<span>
+						本产品属于高风险、高收益投资品种；投资者应具有较高的风险识别能力、资金实力与风险承受能力。投资者应合理配置资产、不应用全部资金做投资，不应借钱来做投资。
+					</span>
+				</div>
+				</div>
+				</center>
+			</div>
+
+			<div id="consult_btn"></div>
+			<div id="apply_btn"></div>
+	</body>
+
+
+	<script type="text/javascript">
+	  document.documentElement.style.fontSize = 100 * innerWidth / 750 + 'px';
+    	  addEventListener('load', function() {
+      setTimeout(function(){
+          document.documentElement.style.fontSize = 100 * innerWidth / 750 + 'px';
+      }, 480);
+      // 判断窗口是否在一个框架中
+      var isInApp = (window.self != window.top);
+      if (!isInApp) {
+          window.parent.postMessage({name: 'web:inject', token: Math.random().toString(), usertype: 1}, '*');
+      }
+    })
+    addEventListener('orientationchange', function() {
+      document.documentElement.style.fontSize = 100 * innerWidth / 750 + 'px'
+    });
+</script>
+
+<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(document).ready(function(){375==window.screen.width?$("#scrollbox").attr("height","720px"):320==window.screen.width?$("#scrollbox").attr("height","680px"):414==window.screen.width||412==window.screen.width?$("#scrollbox").attr("height","750px"):$("#scrollbox").attr("height","700px")});
+</script>
+<script src="js/lunbo.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/index.js	" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){function l(){u++,u==n&&($(".fuliul").css({left:0}),u=1),$(".fuliul").stop().animate({left:5.34*-u+"rem"},500)}function i(){u--,-1==u&&($(".fuliul").css({left:5.34*-(n-1)+"rem"}),u=n-2),$(".fuliul").stop().animate({left:5.34*-u+"rem"},500),$(".fuliul li").eq(u).addClass("on").siblings().removeClass("on")}var u=0,f=$(".fuliul li").first().clone();$(".fuliul").append(f);var n=$(".fuliul li").size();$(".flbtn_r").click(function(){l()}),$(".flbtn_l").click(function(){i()})});
+</script>
+		<script type="text/javascript">
+		var allVoArr=[],voUrl=[],dianNum;$.getJSON("http://139.224.224.93/mp3/").done(function(s){function a(){n++,n==c&&($(".voiceList").css({left:0}),n=1),$(".voiceList").stop().animate({left:5.7*-n+"rem"},500)}function l(){n--,-1==n&&($(".voiceList").css({left:5.7*-(c-1)+"rem"}),n=c-2),$(".voiceList").stop().animate({left:5.7*-n+"rem"},500),$(".voiceList li").eq(n).addClass("on").siblings().removeClass("on")}allVoice=s.level1.length+s.level2.length;for(var n=0;n<s.level1.length;n++)allVoArr.push(s.level1[n]);for(var n=0;n<s.level2.length;n++)allVoArr.push(s.level2[n]);for(var n=0;n<allVoArr.length;n++)voUrl.push(allVoArr[n].url),$("#sb ul").append('<li><div class="lidiv"><div class="voiceph"><img class="tel" src="img/voiceph.png"/></div><div class="voTex"><p><span class="namespan">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</span><span>'+allVoArr[n].name+'</span></p><p><span class="namespan">所属战队：</span><span>'+allVoArr[n].user+'</span></p><p><span class="namespan">交易账户：</span><span>'+allVoArr[n].account+'</span></p><p><span class="namespan">所获大奖：</span><span>'+allVoArr[n].reward+'</span></p><p><span class="namespan">采访时间：</span><span>'+allVoArr[0].date.substr(0,2)+"月"+allVoArr[0].date.substr(3,2)+'日</span></p></div><div class="cleardiv"></div><audio src='+voUrl[n]+' class="audio"></audio>	</div></li>');var e=0;$("#sb ul li img").each(function(){$(this).addClass("telimg"+e);e++});var i=0;$("#sb ul li audio").each(function(){$(this).addClass("audio"+i);e++});var p,r,t=document.getElementsByClassName("audio");$("#sb ul li img").each(function(){$(this).click(function(){p=$(this).attr("class"),r=parseInt(p.charAt(p.length-1)),t[r].play();for(var s=0;s<allVoArr.length;s++)s!=r&&t[s].pause()})});var n=0,o=$(".voiceList li").first().clone();$(".voiceList").append(o);var c=$(".voiceList li").size();$(".sec5_btnr").click(function(){a()}),$(".sec5_btnl").click(function(){l()})});
+		
+		</script>
+		<script type="text/javascript" src="http://m.98.cn/common/getJionUser.js"></script>
+		<script type="text/javascript" src="http://m.98.cn/common/CountCode.js"></script>
+	
+		<script type="text/javascript" src="http://az.mobile-static-service.baidao.com/activity/scripts/vendor.js"></script>
+		<script type="text/javascript" src="http://az.mobile-static-service.baidao.com/activity/scripts/activity.min.js"></script>
+			<script type="text/javascript" src="js/dplusCount.js"></script>
+		<script type="text/javascript">
+			window.getJoinUser([115,115]),window.initActivityId([115,115],function(){getJoinUser([115,115])}),dplus.define("page",function(i){i.setTitle("最强战队年终特辑"),i.setTags(["最强战队年终特辑"]),i.view()});
+		</script>
+
+</html>
